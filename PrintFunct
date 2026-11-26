@@ -1,0 +1,10 @@
+#include <iostream>
+void print(std::string mane) {
+	std::cout<<"Hello "<< mane<<"!\n";
+}
+int main () {
+	std::string nama;
+	std::cout<<"Enter a nama: ";
+	std::cin>> nama;
+	print(nama);
+}
